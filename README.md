@@ -7,7 +7,7 @@ HackerEarth Machine learning challenge
  
 2. Then I cleaned the text by removing punctuations, stopwords and by using techniques like stemming, lemmatisation.
 
-3. Then I generated handcrafted features like fraction of nouns, adjective, verbs and number of words, number of punctuations, mean word length etc.
+3. Then I generated handcrafted features like number of unique words, number of punctuations, number of words, mean word length etc.
 
 4. After that I generated text based features using TfidfVectorizer. I used 8000 features from it. Then I merged it with previously generated features.
 
