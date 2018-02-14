@@ -5,9 +5,9 @@ HackerEarth Machine learning challenge
 
 1. I used one hot encoding to change categorical features i.e Browser_Used into numerical ones.
  
-2. Then I cleaned the text by removing punctuations, stopwords and by using techniques like stemming, lemmatisation.
+2. Then I generated handcrafted features like number of unique words, number of punctuations, number of stopwords, mean word length etc.
 
-3. Then I generated handcrafted features like number of unique words, number of punctuations, number of words, mean word length etc.
+3. Then I cleaned the text by removing punctuations, stopwords and by using techniques like stemming, lemmatisation.
 
 4. After that I generated text based features using TfidfVectorizer. I used 8000 features from it. Then I merged it with previously generated features.
 
