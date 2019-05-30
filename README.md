@@ -12,4 +12,8 @@ HackerEarth Machine learning challenge
 4. After that I generated text based features using TfidfVectorizer. I used 8000 features from it. Then I merged it with previously generated features.
 
 5. After that I fed those features into a VotingClassifier. In that voting classifier, I used two logistic regression classifiers with different hyper-parameters as basic classifiers. 
- 
+
+# Result
+Got 30th position on leaderboard (30/10474)
+
+[Link](https://www.hackerearth.com/challenges/competitive/predict-the-happiness/leaderboard/)
